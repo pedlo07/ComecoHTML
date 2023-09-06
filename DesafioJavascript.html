@@ -15,16 +15,24 @@ alert("Voce tem " + diasVida + " dias de vida");
 trintaAno = (diasAno * 30) + diasVida;
 alert("Daqui trinta anos voce tera " + trintaAno + " dias de vida.");
 
+if (anoVida >= 16) {
+    alert("Você já tem idade suficiente para votar.")
+} else {
+    alert("Você não tem idade suficiente para votar.") 
+}
 quarentaMeses = ((anoVida * 12) + 40) / 12 ;
  
-     if( quarentaMeses > 18) {
-        document.write("Você daqui quarenta meses você será maior de idade")
-     } else  {
-        document.write("Você daqui quarenta meses será menor de idade")
-     }
+if( quarentaMeses > 18) {
+    alert("Você daqui quarenta meses você será maior de idade e terá idade suficiente para votar.")
+} else  {
+    alert("Você daqui quarenta meses será menor de idade e ainda nao poderá votar.")
+}
 
 </script>
 
 <p>  </p>
 
 </body>
+
+
+</HTML>
