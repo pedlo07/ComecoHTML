@@ -12,18 +12,28 @@
     
     var aposen = idade + contribuicao;
     if(sexo = 1) {
+        if(contribuicao >= 35){
+
        if(aposen >= 95) {
-        alert(nome + ", voce pode se aposentar.")
+        alert(nome + ", voce pode se aposentar.");
        } else {
-        alert(nome + ", voce nao pode se aposentar.")
+        alert(nome + ", voce nao pode se aposentar.");
        }
     } else {
+        alert(nome + ", você ainda não pode se aposentar");
+    } 
+    } else {
+        if(contribuicao >= 30){
+    
         if(aposen >= 85) {
-        alert(nome + ", voce pode se aposentar.")
+        alert(nome + ", voce pode se aposentar.");
        } else {
-        alert(nome + ", voce nao pode se aposentar.")
+        alert(nome + ", voce nao pode se aposentar.");
        } 
+    } else {
+        alert(nome + ", você ainda não pode se aposentar"); 
     }
+}
     </script>
     
     <p>  </p>
